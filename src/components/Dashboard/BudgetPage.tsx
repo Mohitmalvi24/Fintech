@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from '../UI/Card';
 import { 
   Home, ShoppingCart, Film, Zap, 
-  TrendingUp, PiggyBank, Sparkles, AlertTriangle 
+  Sparkles, AlertTriangle 
 } from 'lucide-react';
 
 interface Category {
