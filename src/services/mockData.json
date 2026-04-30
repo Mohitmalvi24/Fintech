@@ -1,0 +1,81 @@
+{
+  "summary": {
+    "netWorth": 125430.50,
+    "spending": 3240.20,
+    "savings": 15200.00,
+    "netWorthChange": 12.5,
+    "spendingChange": -5.2,
+    "savingsChange": 8.1
+  },
+  "insights": [
+    {
+      "id": "1",
+      "type": "strategy",
+      "title": "Optimize Tech Exposure",
+      "description": "Your tech exposure increased by 14% this month. Consider rebalancing your portfolio to mitigate risk.",
+      "impact": "High"
+    },
+    {
+      "id": "2",
+      "type": "savings",
+      "title": "Subscription Cleanup",
+      "description": "You can save $180 annually by removing duplicate subscriptions detected in your transactions.",
+      "impact": "Medium"
+    }
+  ],
+  "alerts": [
+    {
+      "id": "a1",
+      "type": "warning",
+      "message": "Large transaction detected: $2,500 at 'Apple Store'"
+    },
+    {
+      "id": "a2",
+      "type": "info",
+      "message": "Budget reached 80% for 'Dining Out'"
+    },
+    {
+      "id": "a3",
+      "type": "error",
+      "message": "Entertainment threshold exceeded by $50"
+    }
+  ],
+  "transactions": [
+    { "id": "t1", "date": "2024-04-28", "merchant": "Apple Store", "category": "Electronics", "amount": -2500.00, "status": "Completed" },
+    { "id": "t2", "date": "2024-04-27", "merchant": "Starbucks", "category": "Dining", "amount": -12.50, "status": "Completed" },
+    { "id": "t3", "date": "2024-04-26", "merchant": "Employer Inc", "category": "Salary", "amount": 5000.00, "status": "Completed" },
+    { "id": "t4", "date": "2024-04-25", "merchant": "Netflix", "category": "Subscriptions", "amount": -15.99, "status": "Completed" },
+    { "id": "t5", "date": "2024-04-24", "merchant": "Amazon", "category": "Shopping", "amount": -84.20, "status": "Pending" },
+    { "id": "t6", "date": "2024-04-23", "merchant": "Uber", "category": "Transport", "amount": -22.50, "status": "Completed" },
+    { "id": "t7", "date": "2024-04-22", "merchant": "Whole Foods", "category": "Groceries", "amount": -142.10, "status": "Completed" },
+    { "id": "t8", "date": "2024-04-21", "merchant": "Gym Membership", "category": "Health", "amount": -50.00, "status": "Completed" },
+    { "id": "t9", "date": "2024-04-20", "merchant": "Steam", "category": "Entertainment", "amount": -59.99, "status": "Completed" },
+    { "id": "t10", "date": "2024-04-19", "merchant": "Electric Co", "category": "Utilities", "amount": -120.00, "status": "Completed" }
+  ],
+  "spendingData": [
+    { "name": "Mon", "value": 120 },
+    { "name": "Tue", "value": 300 },
+    { "name": "Wed", "value": 150 },
+    { "name": "Thu", "value": 450 },
+    { "name": "Fri", "value": 200 },
+    { "name": "Sat", "value": 600 },
+    { "name": "Sun", "value": 400 }
+  ],
+  "budgetData": {
+    "totalVelocity": 12450.00,
+    "totalLimit": 15000.00,
+    "daysRemaining": 12,
+    "projectedSurplus": 2550,
+    "savingsEfficiency": 94.2,
+    "categories": [
+      { "id": "b1", "name": "Housing & Rent", "spent": 3200, "limit": 3200, "status": "FIXED", "icon": "Home" },
+      { "id": "b2", "name": "Groceries", "spent": 642.50, "limit": 900, "status": "HEALTHY", "icon": "ShoppingCart" },
+      { "id": "b3", "name": "Entertainment", "spent": 450, "limit": 500, "status": "CRITICAL", "icon": "Film" },
+      { "id": "b4", "name": "Lifestyle", "spent": 210, "limit": 600, "status": "OPTIMAL", "icon": "Zap" }
+    ],
+    "strategy": {
+      "potentialSavings": 200.00,
+      "description": "Based on your spending patterns at 'Gourmet Mart', switching to bulk purchases could reduce your grocery overhead by 14%."
+    }
+  }
+}
